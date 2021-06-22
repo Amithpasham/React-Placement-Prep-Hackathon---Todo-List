@@ -6,6 +6,7 @@ function Button1(props) {
   const name= useRef("")
   function handle(){
     // console.log(name.curent)
+    if(data!=="")
     props.fun((prev)=>[...prev,data])
     // e.target.elements.todo.value=""
   }
