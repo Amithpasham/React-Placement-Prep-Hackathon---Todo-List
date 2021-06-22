@@ -11,11 +11,11 @@ function Button2(props) {
 setbool(true)
   }
   function save(){
-    
+    if(data!==""){
     cnt[props.id]=data;
     // for(let i=0;)
     props.setCount([...cnt])
-    setbool(false)
+    setbool(false)}
   }
   function fun(e){
     data=e.target.value;
