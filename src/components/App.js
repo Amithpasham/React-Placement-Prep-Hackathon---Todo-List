@@ -47,8 +47,9 @@ function App() {
 			})
 			
 		}
-		<Button1 fun={setCount}></Button1>
 		</div>
+		<Button1 fun={setCount}></Button1>
+		
 			</div>
 	)
 }

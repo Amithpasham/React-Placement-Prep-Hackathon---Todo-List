@@ -20,12 +20,12 @@ function Button1(props) {
   name.current.value=""
   })
   return (
-    <div>
+    <>
       {/* <form onSubmit={handle}> */}
       <textarea id="task" ref={name} onChange={fun}></textarea>
       <button type="submit" id="btn" onClick={handle}>add</button> 
       {/* </form> */}
-    </div>
+    </>
   )
 }
 
