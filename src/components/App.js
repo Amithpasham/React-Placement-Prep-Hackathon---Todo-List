@@ -77,7 +77,7 @@ function App() {
 			<h1 className="list" >{user}</h1>
 			{/* <button onClick={()=> <Button2></Button2>}>edit</button> */}
 			<Button2 id={id}count={count} setCount={setCount}></Button2>
-			<button onClick={()=>clickHandler(id)}>del</button>
+			<button className="delete" onClick={()=>clickHandler(id)}>del</button>
 			</div>
 			})
 			
