@@ -23,7 +23,7 @@ setbool(true)
   return (
     bool?
     <>
-    <textarea onChange={fun}></textarea>
+    <textarea className="editTask" onChange={fun}></textarea>
     <button className="saveTask" onClick={()=>save()}>save</button>
     </>
     :<div>
