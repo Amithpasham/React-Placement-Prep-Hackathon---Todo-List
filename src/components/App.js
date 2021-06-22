@@ -42,7 +42,7 @@ function App() {
 			count.map((user,id)=>{
 			return < div key={id}>
 			<p className="list" >{user}</p>
-			<button onClick={()=>clickHandler(id)}>del</button>
+			<button class="delete" onClick={()=>clickHandler(id)}>del</button>
 			</div>
 			})
 			
