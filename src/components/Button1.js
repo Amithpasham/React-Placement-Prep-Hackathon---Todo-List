@@ -22,7 +22,7 @@ function Button1(props) {
     <div>
       {/* <form onSubmit={handle}> */}
       <textarea id="task" ref={name} onChange={fun}></textarea>
-      <button className="delete"type="submit" id="btn" onClick={handle}>add</button> 
+      <button className="delete" type="submit" id="btn" onClick={handle}>add</button> 
       {/* </form> */}
     </div>
   )

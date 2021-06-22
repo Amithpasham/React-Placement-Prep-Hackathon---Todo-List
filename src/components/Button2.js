@@ -31,7 +31,7 @@ setbool(true)
       // bool?<textarea></textarea>:""
       // (bool)?<button>save</button>:""
       }
-      <button className="editTask"onClick={()=>handle()}>edit</button>
+      <button className="edit"onClick={()=>handle()}>edit</button>
     </div>
   )
 }
