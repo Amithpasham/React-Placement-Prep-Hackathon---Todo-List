@@ -30,6 +30,7 @@
 import React,{useState} from 'react'
 import "./../styles/App.css";
 import Button1 from './Button1'
+import Button2 from './Button2'
 
 function App() {
 	const [count, setCount] = useState([])
@@ -41,13 +42,14 @@ function App() {
 						<div>{
 			count.map((user,id)=>{
 			return < div key={id}>
-			<p className="list" >{user}</p>
-			<button className="delete" onClick={()=>clickHandler(id)}>del</button>
+			<h1 className="list" >{user}</h1>
+			{/* <button onClick={()=> <Button2></Button2>}>edit</button> */}
+			<Button2 id={id}count={count} setCount={setCount}></Button2>
+			<button onClick={()=>clickHandler(id)}>del</button>
 			</div>
 			})
 			
 		}
-	
 		<Button1 fun={setCount}></Button1>
 		</div>
 			</div>
